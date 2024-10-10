@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css"; // Import CSS for toast notifica
 
 const UploadFile = () => {
   const [selectedFile, setSelectedFile] = useState(null);
-  const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5 MB
+  const MAX_FILE_SIZE = 1 * 1024 * 1024; // 1 MB
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
